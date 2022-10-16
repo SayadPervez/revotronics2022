@@ -87,7 +87,7 @@
 }
 
 #bottomDirect{
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     left:calc(50% - 24px);
     z-index: 200;
