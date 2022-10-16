@@ -30,7 +30,7 @@
 
 .bottomFangs{
     bottom:0;
-    display:none;
+    display: none;
 }
 
 .vhcontainer{
@@ -84,4 +84,12 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#bottomDirect{
+    position: fixed;
+    bottom: 20px;
+    left:calc(50% - 24px);
+    z-index: 200;
+    font-size: 48px;
 }

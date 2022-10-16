@@ -1,8 +1,17 @@
 @media only screen and (max-width: 800px) {
     .bottomFangs{
-        display: block;
+        display: block; 
     }
     #herotitle{
         font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .bottomFangs{
+        display: block; 
+    }
+    #herotitle{
+        font-size: 38px;
     }
 }
