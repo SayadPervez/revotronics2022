@@ -1,0 +1,21 @@
+#bdy{
+    background-image: url("./../img/BG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fangs{
+    position:fixed;
+    left:0;
+    z-index: 100000000;
+    width:100%;
+}
+
+.topFangs{
+    top:0;
+}
+
+.bottomFangs{
+    bottom:0;
+}
