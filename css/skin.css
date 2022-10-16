@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 #bdy{
     background-image: url("./../img/BG.png");
     background-position: center;
@@ -10,6 +15,7 @@
     left:0;
     z-index: 100000000;
     width:100%;
+    /*display: none; /*DELETE ME*/
 }
 
 .topFangs{
@@ -19,4 +25,31 @@
 .bottomFangs{
     bottom:0;
     display:none;
+}
+
+.vhcontainer{
+    width:100% !important;
+    display:block;
+    height:100vh !important;
+    margin:0 !important;
+}
+
+.myFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+.centerFlex{
+    justify-content: center;
+    align-items: center;
+}
+
+#herotext{
+    text-align: center;
+    position: relative;
+    bottom: 6rem;
+}
+
+.extraBold{
+    font-weight: 700;
 }
