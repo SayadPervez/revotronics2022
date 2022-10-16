@@ -116,3 +116,14 @@
 ::-webkit-scrollbar{
     display: none;
 }
+
+#socialMediaIcons{
+    width:max-content;
+    margin:auto;
+}
+
+#socialMediaIcons i{
+    font-size: 28px;
+    padding:0.5rem;
+    margin:0.5rem;
+}
