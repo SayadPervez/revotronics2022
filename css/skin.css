@@ -190,7 +190,7 @@ html{
 }
 
 #herologo{
-    width:250px;
-    max-width: 80% !important;
+    width:200px !important;
+    max-width: 70% !important;
     margin-bottom: 0;
 }
