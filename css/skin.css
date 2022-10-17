@@ -222,3 +222,8 @@ html{
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
+li{
+    cursor: pointer;
+    z-index: 10010;
+}

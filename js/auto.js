@@ -4,11 +4,11 @@ $(window).scroll(function(){
 });
 
 $(document).ready(function() {
-    setTimeout(function() {  scrollTo() }, 5000);
+    setTimeout(function() {  myScrollTo('aboutdiv') }, 5000);
 });
 
-function scrollTo(id="aboutdiv"){
-    document.getElementById(id).scrollIntoView({block:"nearest", behavior:"smooth"});
+function myScrollTo(id="aboutdiv"){
+    document.getElementById(id).scrollIntoView({behavior:"smooth",block:"center"});
 }
 
 new FlipDown(1667390400, "registerBy",{theme:"light"}).start();
