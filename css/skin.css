@@ -9,6 +9,11 @@
     --neonPink : #f443fc;
 }
 
+@font-face {
+    font-family: verminVibes;
+    src: url(./fonts/VerminVibes.woff);
+}
+
 html{
     background-color:#0b1014;
 }
@@ -64,6 +69,16 @@ html{
     z-index: 10001;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: verminVibes;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 0.01px black;
+}
+
+.revo{
+    font-family: verminVibes;
+    letter-spacing: 2px;
+    font-size: larger;
+    -webkit-text-stroke: 0.01px black;
 }
 
 #registerHeroButton{
