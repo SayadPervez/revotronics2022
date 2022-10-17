@@ -21,6 +21,13 @@
         z-index: 10001;
     }
 
+    .column2flexinv{
+        display:grid;
+        grid-template-columns: 100%;
+        position: relative;
+        z-index: 10001;
+    }
+
     .columnText{
         margin-top: 1.5rem !important;
         width:80%;

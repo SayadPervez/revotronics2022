@@ -186,7 +186,15 @@ html{
 .column2flex{
     width:90%;
     display:grid;
-    grid-template-columns: 50% auto;
+    grid-template-columns: 40% auto;
+    position: relative;
+    z-index: 10001;
+}
+
+.column2flexinv{
+    width:90%;
+    display:grid;
+    grid-template-columns: auto 40%;
     position: relative;
     z-index: 10001;
 }
