@@ -5,6 +5,20 @@
     #herotitle{
         font-size: 48px;
     }
+
+    .column2flex{
+        width:90%;
+        display:grid;
+        grid-template-columns: 100%;
+        position: relative;
+        z-index: 10001;
+    }
+
+    .columnText{
+        margin-top: 1.5rem !important;
+        width:80%;
+        margin:auto;
+    }
 }
 
 @media only screen and (max-width: 380px) {
