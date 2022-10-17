@@ -268,3 +268,8 @@ li{
     padding:3rem;
     background-color: #00000088;
 }
+
+button{
+    position: relative;
+    z-index:10000000000000;
+}
