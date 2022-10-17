@@ -271,5 +271,5 @@ li{
 
 button{
     position: relative;
-    z-index:10000000000000 !important;
+    z-index:20000 !important;
 }
