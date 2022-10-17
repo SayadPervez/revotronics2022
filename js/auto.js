@@ -4,5 +4,9 @@ $(window).scroll(function(){
 });
 
 $(document).ready(function() {
-    setTimeout(function() {  document.getElementById("aboutdiv").scrollIntoView({block:"nearest", behavior:"smooth"}); }, 5000);
+    setTimeout(function() {  scrollTo() }, 5000);
 });
+
+function scrollTo(id="aboutdiv"){
+    document.getElementById(id).scrollIntoView({block:"nearest", behavior:"smooth"});
+}

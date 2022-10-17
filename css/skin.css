@@ -9,6 +9,10 @@
     --neonPink : #f443fc;
 }
 
+html{
+    background-color:#0b1014;
+}
+
 #bdy{
     background-color:transparent;
 }
@@ -102,7 +106,7 @@
     position: fixed;
     bottom: 20px;
     left:calc(50% - 24px);
-    z-index: 200;
+    z-index: 10001;
     font-size: 48px;
 }
 
