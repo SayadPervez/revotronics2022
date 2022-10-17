@@ -62,6 +62,8 @@ html{
     font-size: 104px;
     position: relative;
     z-index: 10001;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #registerHeroButton{
@@ -185,4 +187,9 @@ html{
     font-size: 1.7rem;
     text-align: justify;
     text-align-last: center;
+}
+
+#herologo{
+    width:250px;
+    margin-bottom: 0;
 }
