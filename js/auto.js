@@ -10,3 +10,5 @@ $(document).ready(function() {
 function scrollTo(id="aboutdiv"){
     document.getElementById(id).scrollIntoView({block:"nearest", behavior:"smooth"});
 }
+
+new FlipDown(1667619000, "registerBy").start();
