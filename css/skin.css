@@ -191,6 +191,14 @@ html{
     z-index: 10001;
 }
 
+.column2flex_page{
+    width:80%;
+    display:grid;
+    grid-template-columns: 35% auto;
+    position: relative;
+    z-index: 10001;
+}
+
 .columnImage{
     width:80%;
     margin:auto;

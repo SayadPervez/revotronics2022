@@ -31,8 +31,8 @@
 
     <!-- About div -->
     <div id="aboutdiv" class="vhcontainer myFlex centerFlex" style="height:70vh;">
-        <div class="column2flex">
-            <img src="./img/page0/eventImage.png" class="columnImage" onclick="window.open('./img/poster.png', '_blank').focus();" />
+        <div class="column2flex_page">
+            <img onclick="openInNewTab('./img/page0/eventImage.png')" src="./img/page0/eventImage.png" class="columnImage" style="position:relative;z-index:10015;" />
             <div class="myFlex centerFlex columnText">
                 <p>
                     Reliable Engineers takes many forms, one of which is a presentor. Present and get recognized for your work. The success of your presentation will be measured not by what you say, but rather by what the listener understands.
@@ -43,11 +43,14 @@
 
     <h2 class="myHeader extraBold gradient0">General Guidelines</h2>
     <div class="generalDiv" style="width:max-content;max-width:90%;margin:auto;position:relative;z-index: 10001;">
-        1. Lorem ipsum dolor sit amet consectetur wrefdjbwds fca dsf cds fc dsf wd sf<br><br>
-        2. Lorem ipsum dolor sit amet consectetur<br><br>
-        3. Lorem ipsum dolor sit amet consectetur<br><br>
-        4. Lorem ipsum dolor sit amet consectetur<br><br>
-        5. Lorem ipsum dolor sit amet consectetur
+        1. Registered participants must bring their college ID card for verification.<br><br>
+        2. Only Registered Students will be allowed to Participate.<br><br>
+        3. Participants must follow the Dress code of the Rajalakshmi Engineering College.<br><br>
+        4. No DSLR allowed.<br><br>
+        5. No refund on registration fees will be provided.<br><br>
+        6. Consumption of Alcohol and smoking is strictly prohibited inside the college premises.<br><br>
+        7. Students should refrain from abusive language and obscene display during the events, failing which they will be disqualified.<br><br>
+        8. Rules are subject to changes at the discretion of the management or the event organizers.
     </div><br><br><br>
 
     <h2 class="myHeader extraBold gradient0">Event Specific Guidelines</h2>
@@ -91,5 +94,8 @@
         <br>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/page.js"></script>
 </body>
 </html>

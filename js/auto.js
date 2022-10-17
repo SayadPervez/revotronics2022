@@ -11,5 +11,9 @@ function myScrollTo(id="aboutdiv"){
     document.getElementById(id).scrollIntoView({behavior:"smooth",block:"center"});
 }
 
+function openInNewTab(url){
+    window.open(url, '_blank').focus();
+}
+
 new FlipDown(1667390400, "registerBy",{theme:"light"}).start();
 new FlipDown(1667619000, "eventBy",{theme:"light"}).start();
