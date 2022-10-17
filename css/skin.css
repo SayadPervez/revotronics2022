@@ -194,3 +194,16 @@ html{
     max-width: 70% !important;
     margin-bottom: 0;
 }
+
+.myHeader{
+    text-align: center;
+}
+
+.columnList{
+    text-align: left !important;
+}
+
+.columnDiv{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
