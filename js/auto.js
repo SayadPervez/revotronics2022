@@ -11,4 +11,5 @@ function scrollTo(id="aboutdiv"){
     document.getElementById(id).scrollIntoView({block:"nearest", behavior:"smooth"});
 }
 
-new FlipDown(1667619000, "registerBy",{theme:"light"}).start();
+new FlipDown(1667390400, "registerBy",{theme:"light"}).start();
+new FlipDown(1667619000, "eventBy",{theme:"light"}).start();
