@@ -372,6 +372,6 @@ button{
 } 
 
  .footimage{
-    margin-top: -310px;
-    margin-left: 90px;
-}
+    max-width: 400px;
+    margin-top: -100px;
+    margin-left: 400px; }

@@ -17,8 +17,9 @@
     
 }
 .footimage{
-    margin-top: 0px;
-    margin-left: -10px;
+    max-width: 250px;
+    margin-top: -70px;
+    margin-left: 55px;
 }
 .footer{
     font-size: 25px;
