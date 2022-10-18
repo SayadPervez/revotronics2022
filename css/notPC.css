@@ -2,10 +2,28 @@
     .bottomFangs{
         display: block; 
     }
-    #herotitle{
-        font-size: 48px;
+    li{
+        font-size: 45px;
     }
-
+   /* span{
+    font-size: 48px;
+    margin-left: -10px;
+   } */
+   .logo{
+    margin-left: -10px;
+   }
+   .logo b{
+    font-size: 60px;
+    
+}
+.footimage{
+    margin-top: 0px;
+}
+.footer{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+} 
     .column2flex{
         width:90%;
         display:grid;
@@ -42,5 +60,12 @@
     }
     #herotitle{
         font-size: 38px;
+    }
+    .logo{
+        margin-left: -10px;
+       }
+    .logo b{
+        font-size: 42px;
+        
     }
 }
