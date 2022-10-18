@@ -5,21 +5,15 @@
     li{
         font-size: 45px;
     }
-   /* span{
-    font-size: 48px;
-    margin-left: -10px;
-   } */
    .logo{
-    margin-left: -10px;
+        margin-left: -10px;
    }
    .logo b{
-    font-size: 60px;
-    
-}
-.logo{
-    margin-top: -10px;
-}
-
+        font-size: 60px;
+    }
+    .logo{
+        margin-top: -10px;
+    }
     .column2flex{
         width:90%;
         display:grid;
@@ -27,34 +21,36 @@
         position: relative;
         z-index: 10001;
     }
-
     .column2flex_page{
         display:grid;
         grid-template-columns: 100%;
         position: relative;
         z-index: 10001;
     }
-
     .column2flexinv{
         display:grid;
         grid-template-columns: 100%;
         position: relative;
         z-index: 10001;
     }
-
     .columnText{
         margin-top: 1.5rem !important;
         width:80%;
         margin:auto;
         font-size: 1.2rem;
     }
-
     .triangle{
         display:block;
     }
-
     .triangle div{
         margin-bottom: 3rem;
+    }
+    #herotext{
+        display: relative;
+        bottom:3rem;
+    }
+    .columnList li h4{
+        font-size: 23px;
     }
 }
 
