@@ -24,6 +24,10 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 } 
+.logo{
+    margin-top: -10px;
+}
+
     .column2flex{
         width:90%;
         display:grid;
