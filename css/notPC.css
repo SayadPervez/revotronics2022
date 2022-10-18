@@ -2,9 +2,33 @@
     .bottomFangs{
         display: block; 
     }
-    #herotitle{
-        font-size: 48px;
+    li{
+        font-size: 45px;
     }
+   /* span{
+    font-size: 48px;
+    margin-left: -10px;
+   } */
+   .logo{
+    margin-left: -10px;
+   }
+   .logo b{
+    font-size: 60px;
+    
+}
+.footimage{
+    max-width: 250px;
+    margin-top: -70px;
+    margin-left: 55px;
+}
+.footer{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+} 
+.logo{
+    margin-top: -10px;
+}
 
     .column2flex{
         width:90%;
@@ -42,5 +66,12 @@
     }
     #herotitle{
         font-size: 38px;
+    }
+    .logo{
+        margin-left: -10px;
+       }
+    .logo b{
+        font-size: 42px;
+        
     }
 }
