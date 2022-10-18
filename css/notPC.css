@@ -48,6 +48,14 @@
         margin:auto;
         font-size: 1.2rem;
     }
+
+    .triangle{
+        display:block;
+    }
+
+    .triangle div{
+        margin-bottom: 3rem;
+    }
 }
 
 @media only screen and (max-width: 380px) {
