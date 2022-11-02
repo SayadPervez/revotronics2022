@@ -15,5 +15,5 @@ function openInNewTab(url){
     window.open(url, '_blank').focus();
 }
 
-new FlipDown(1667390400, "registerBy",{theme:"light"}).start();
-new FlipDown(1667619000, "eventBy",{theme:"light"}).start();
+new FlipDown(1567390400, "registerBy",{theme:"light"}).start();
+new FlipDown(1567619000, "eventBy",{theme:"light"}).start();
